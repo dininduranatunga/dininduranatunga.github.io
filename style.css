@@ -1,23 +1,46 @@
-/* style.css */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
 }
-
 header {
+    text-align: center;
+    padding: 20px;
     background-color: #333;
     color: white;
-    padding: 20px;
 }
-
-h1 {
+header h1 {
     margin: 0;
+    font-size: 2.5rem;
 }
-
-section {
+header p {
+    margin: 5px 0;
+}
+main {
     padding: 20px;
-    font-size: 18px;
+}
+section {
+    margin-bottom: 20px;
+}
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: disc;
+    margin: 10px 0 10px 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
